@@ -1,0 +1,47 @@
+/* Validated in 16.01.2024 at 0:40 */
+
+body {
+    font-family: sans-serif;
+    color: rgb(255, 223, 0);
+    background-color: rgb(31, 27, 0);
+    padding: 10px;
+}
+
+h1 {
+    font-family: serif;
+    color: rgb(255, 255, 0);
+    padding: 15px;
+}
+
+a {
+    font-family: monospace;
+    color: rgb(0, 255, 255);
+    background-color: rgb(0, 31, 31);
+}
+
+a:hover {
+    color: rgb(0, 31, 31);
+    background-color: rgb(0, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 0, 0);
+    background-color: rgb(31, 0, 0);
+}
+
+a:hover:visited {
+    color: rgb(31, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+img {
+    max-width: 500px;
+    border-style: inset;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
