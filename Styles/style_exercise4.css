@@ -1,0 +1,36 @@
+/* Validated in 16.01.2024 at 10.41 */
+
+#main-header {
+    background-color: rgb(95, 127, 95);
+    padding: 20px;
+    text-align: center;
+}
+
+#main-header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+#mainheader p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content-article {
+    background-color: rgb(255, 223, 127);
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-article > h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content-article > p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;

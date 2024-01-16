@@ -1,0 +1,47 @@
+body {
+    color: #bfb;
+    background-color: #000;
+}
+
+footer, header, nav {
+    display: flex;
+}
+
+main {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+main > aside, main > section {
+    display: flex;
+    flex-direction: column;
+    text-align: middle;
+}
+
+main > aside {
+    background-color: rgb(47, 63, 47);
+    color: rgb(191, 255, 191);
+    flex: 10%;
+    padding: 10px;
+}
+
+main > section {
+    background-color: rgb(63, 63, 0);
+    color: rgb(255, 255, 0);
+    flex: 90%;
+    padding: 10px;
+}
+
+main > section > article {
+    background-color: rgb(63, 63, 31);
+    color: rgb(255, 255, 127);
+    padding: 10px;
+}
+
+table {
+    font-family: monospace;
+}
+
+td {
+    text-align: center;
+}
